@@ -3,7 +3,7 @@ import os
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
 
-from util.logging_config import setup_logging
+from shs_100k.utils.logging_config import setup_logging
 
 LIST_PATH = "/Users/yutanishi/shs-100k/src/list/list.tsv"
 LOG_PATH = "/Users/yutanishi/shs-100k/src/log/youtube_downloader2.log"
